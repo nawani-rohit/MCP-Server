@@ -1,4 +1,3 @@
-```
 # 🚀 SpaceX Launches MCP Server
 
 A lightweight **Model Context Protocol (MCP)** server that fetches public SpaceX launch data and exposes three analytics endpoints.
@@ -13,16 +12,12 @@ A lightweight **Model Context Protocol (MCP)** server that fetches public SpaceX
 
 ## 📂 Project Structure
 
-```
-
 spacex-mcp-server/
 ├── analysis.py
 ├── launch_data.py
 ├── main.py
 ├── requirements.txt
 └── README.md
-
-````
 
 ---
 
@@ -51,7 +46,7 @@ uvicorn main:app --reload --port 3000
 
 ---
 
-## 🧪 Example Requests & Responses
+## 🧪 Requests & Responses
 
 > Replace `3000` if you run on a different port.
 
