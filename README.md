@@ -1,30 +1,30 @@
-# 🚀 SpaceX Launches MCP Server
+# 🚀 SpaceX API MCP Server
 
 A lightweight **Model Context Protocol (MCP)** server that fetches public SpaceX launch data and exposes three analytics endpoints.
 
 | `analysisType` value | What it returns |
 | -------------------- | --------------- |
-| `countByYear`        | Launch counts for every year from the first SpaceX flight to the most recent. Missing years are zero-filled. |
+| `countByYear`        | Launch counts for every year from the first SpaceX flight to the most recent. |
 | `successVsFailure`   | Total number of successful vs. failed launches. |
 | `mostFrequentSite`   | Launch site used most often and its count. |
 
 ---
 
 ## 📂 Project Structure
-
+```bash
 spacex-mcp-server/
 ├── analysis.py
 ├── launch_data.py
 ├── main.py
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## ⚡ Quick Start
 
 ```bash
-git clone https://github.com/<your-user>/spacex-mcp-server.git
+git clone https://github.com/nawani-rohit/spacex-mcp-server.git
 cd spacex-mcp-server
 
 python -m venv venv
