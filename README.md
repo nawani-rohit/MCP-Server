@@ -1,4 +1,4 @@
-# 🚀 SpaceX API MCP Server
+# 🚀 SpaceX MCP Server
 
 A lightweight **Model Context Protocol (MCP)** server that fetches public SpaceX launch data and exposes three analytics endpoints.
 
