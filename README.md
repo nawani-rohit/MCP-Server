@@ -24,12 +24,8 @@ spacex-mcp-server/
 ## ⚡ Quick Start
 
 ```bash
-git clone https://github.com/nawani-rohit/spacex-mcp-server.git
+git clone https://github.com/nawani-rohit/MCP-Server.git
 cd spacex-mcp-server
-
-python -m venv venv
-source venv/bin/activate              # macOS / Linux
-# .\venv\Scripts\Activate.ps1         # Windows
 
 pip install -r requirements.txt
 uvicorn main:app --reload --port 3000
